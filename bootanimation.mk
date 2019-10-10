@@ -18,6 +18,10 @@ ifneq ($(filter bonito sargo,$(du_device)),)
 scr_resolution := 1080x2160
 endif
 
+ifneq ($(filter dragon,$(du_device)),)
+scr_resolution := 1800x2560
+endif
+
 ifneq ($(wildcard vendor/themes/bootanimation/$(scr_resolution).zip),)
 PRODUCT_COPY_FILES += \
     vendor/themes/bootanimation/$(scr_resolution).zip:$(TARGET_COPY_OUT_PRODUCT)/media/bootanimation.zip \
