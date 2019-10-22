@@ -13,7 +13,7 @@ PRODUCT_PACKAGES += \
 scr_resolution := 1080
 du_device := $(patsubst %f,%,$(subst du_,,$(TARGET_PRODUCT)))
 
-ifneq ($(filter crosshatch coral dragon marlin taimen,$(du_device)),)
+ifneq ($(filter crosshatch coral dragon emulator marlin taimen,$(du_device)),)
 scr_resolution := 1440
 endif
 
