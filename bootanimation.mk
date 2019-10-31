@@ -6,7 +6,7 @@ ifneq ($(filter taimen,$(du_device)),)
 scr_resolution := 1440x2880
 endif
 
-ifneq ($(filter crosshatch,$(du_device)),)
+ifneq ($(filter crosshatch coral,$(du_device)),)
 scr_resolution := 1440x2960
 endif
 
