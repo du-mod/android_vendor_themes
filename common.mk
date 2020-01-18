@@ -4,6 +4,9 @@ include vendor/themes/accents.mk
 # Boot animation
 include vendor/themes/bootanimation.mk
 
+# Fonts
+include vendor/themes/fonts.mk
+
 # Sounds
 include vendor/themes/sounds.mk
 
