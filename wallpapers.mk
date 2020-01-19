@@ -24,6 +24,8 @@ else ifneq ($(filter marlin sailfish wahoo,$(DU_DEVICE)),)
 DEVICE_PACKAGE_OVERLAYS += vendor/themes/wallpapers/1440x2560/
 else ifneq ($(filter coral crosshatch emulator flame taimen,$(DU_DEVICE)),)
 DEVICE_PACKAGE_OVERLAYS += vendor/themes/wallpapers/1440x2960/
+else
+DEVICE_PACKAGE_OVERLAYS += vendor/themes/wallpapers/1080x1920/
 endif
 
 DEVICE_PACKAGE_OVERLAYS += vendor/themes/overlay/common/
