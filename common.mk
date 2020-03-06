@@ -10,6 +10,9 @@ include vendor/themes/fonts.mk
 # Misc
 include vendor/themes/misc.mk
 
+# Navbar
+include vendor/themes/navbar.mk
+
 # Sounds
 include vendor/themes/sounds.mk
 
