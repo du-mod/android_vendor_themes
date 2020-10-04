@@ -16,10 +16,19 @@
 
 <resources>
 
-    <dimen name="config_dialogCornerRadius">8.0dip</dimen>
-    <dimen name="config_buttonCornerRadius">4.0dip</dimen>
-    <dimen name="config_progressBarCornerRadius">1000.0dip</dimen>
-    <dimen name="config_bottomDialogCornerRadius">16.0dip</dimen>
-    <item type="dimen" name="config_fullTaskSnapshotScale">0.8</item>
-
+<!-- Colors specific to DeviceDefault themes. These are mostly pass-throughs to enable
+     overlaying new theme colors.
+    <color name="user_icon_1">@android:color/accessibility_focus_highlight</color>
+    <color name="user_icon_2">#ff5c6bc0</color>
+    <color name="user_icon_3">#ff26a69a</color>
+    <color name="user_icon_4">#ffec407a</color>
+    <color name="user_icon_5">#ff33ac71</color>
+    <color name="user_icon_6">#ff8bc34a</color>
+    <color name="user_icon_7">#ffff9800</color>
+    <color name="user_icon_8">#ffff7043</color>
+-->
+    <!-- Multi SIM colors
+    <color name="Teal_700">#ff5a9af8</color>
+    <color name="Teal_800">#ff5795f0</color>
+-->
 </resources>
