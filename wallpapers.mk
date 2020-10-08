@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2019 The Dirty Unicorns Project
+# Copyright (C) 2019-2020 The Dirty Unicorns Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -16,7 +16,7 @@
 
 DU_DEVICE := $(patsubst %f,%,$(subst du_,,$(TARGET_PRODUCT)))
 
-ifneq ($(filter blueline bonito,$(DU_DEVICE)),)
+ifneq ($(filter blueline bonito sunfish,$(DU_DEVICE)),)
 DEVICE_PACKAGE_OVERLAYS += vendor/themes/wallpapers/1080x2280/
 else ifneq ($(filter marlin sailfish wahoo,$(DU_DEVICE)),)
 DEVICE_PACKAGE_OVERLAYS += vendor/themes/wallpapers/1440x2560/
