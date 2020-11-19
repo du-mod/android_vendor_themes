@@ -8,7 +8,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 
 PRODUCT_PACKAGES += \
     boot_theme \
-    misc_writer_system
+    misc_writer
 
 scr_resolution := 1080
 du_device := $(patsubst %f,%,$(subst du_,,$(TARGET_PRODUCT)))
