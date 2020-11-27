@@ -34,7 +34,7 @@ cc_defaults {
 }
 
 cc_library_static {
-    name: "libmisc_writer",
+    name: "libmisc_writer_system",
     cpp_std: "experimental",
 
     cflags: [
@@ -61,7 +61,7 @@ cc_library_static {
 }
 
 cc_binary {
-    name: "misc_writer",
+    name: "misc_writer_system",
     defaults: [
         "misc_writer_defaults",
     ],
@@ -71,12 +71,12 @@ cc_binary {
     ],
 
     static_libs: [
-        "libmisc_writer",
+        "libmisc_writer_system",
     ]
 }
 
 cc_test {
-    name: "misc_writer_test",
+    name: "misc_writer_test_system",
     defaults: [
         "misc_writer_defaults",
     ],
@@ -87,6 +87,6 @@ cc_test {
     test_suites: ["device-tests"],
 
     static_libs: [
-        "libmisc_writer",
+        "libmisc_writer_system",
     ]
 }

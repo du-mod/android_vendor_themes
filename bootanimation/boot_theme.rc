@@ -3,12 +3,12 @@ service boot_theme /system/bin/boot_theme
     oneshot
 
 # Write the dark theme magic to /misc partition.
-service theme_set /system/bin/misc_writer --override-vendor-space-offset ${ro.misc.block.offset} --set-dark-theme
+service theme_set /system/bin/misc_writer_system --override-vendor-space-offset ${ro.misc.block.offset} --set-dark-theme
     disabled
     oneshot
 
 # Clear the dark theme magic in /misc partition.
-service theme_clear /system/bin/misc_writer --override-vendor-space-offset ${ro.misc.block.offset} --clear-dark-theme
+service theme_clear /system/bin/misc_writer_system --override-vendor-space-offset ${ro.misc.block.offset} --clear-dark-theme
     disabled
     oneshot
 
