@@ -17,6 +17,10 @@ ifneq ($(filter crosshatch coral dragon emulator marlin taimen,$(du_device)),)
 scr_resolution := 1440
 endif
 
+ifneq ($(filter potter,$(du_device)),)
+scr_resolution := 540
+endif
+
 ifneq ($(wildcard vendor/themes/bootanimation/$(scr_resolution).zip),)
 PRODUCT_COPY_FILES += \
     vendor/themes/bootanimation/$(scr_resolution).zip:$(TARGET_COPY_OUT_PRODUCT)/media/bootanimation.zip \
