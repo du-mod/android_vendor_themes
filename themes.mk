@@ -4,3 +4,5 @@ PRODUCT_PACKAGES += \
     PitchBlackSystemUIOverlay \
     SolarizedDarkSystemOverlay \
     SolarizedDarkSystemUIOverlay
+
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/themes/backgrounds
