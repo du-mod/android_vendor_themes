@@ -27,3 +27,4 @@ DEVICE_PACKAGE_OVERLAYS += vendor/themes/wallpapers/1080x1920/
 endif
 
 DEVICE_PACKAGE_OVERLAYS += vendor/themes/overlay/common/
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/themes/overlay/common/
