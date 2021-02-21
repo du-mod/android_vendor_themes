@@ -11,7 +11,8 @@ PRODUCT_PACKAGES += \
     FontFiraSansSourceOverlay \
     FontUbuntuSourceOverlay \
     FontTitilliumWebSourceOverlay \
-    FontCaviarDreamsSourceOverlay
+    FontCaviarDreamsSourceOverlay \
+    FontOnePlusSansSourceOverlay
 
 PRODUCT_COPY_FILES += \
     vendor/themes/fonts/prebuilt/Cagliostro-Regular.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/Cagliostro-Regular.ttf \
@@ -49,4 +50,17 @@ PRODUCT_COPY_FILES += \
     vendor/themes/fonts/prebuilt/CaviarDreams.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/CaviarDreams.ttf \
     vendor/themes/fonts/prebuilt/CaviarDreams_Bold.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/CaviarDreams_Bold.ttf \
     vendor/themes/fonts/prebuilt/CaviarDreams_BoldItalic.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/CaviarDreams_BoldItalic.ttf \
-    vendor/themes/fonts/prebuilt/CaviarDreams_Italic.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/CaviarDreams_Italic.ttf
+    vendor/themes/fonts/prebuilt/CaviarDreams_Italic.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/CaviarDreams_Italic.ttf \
+    vendor/themes/fonts/prebuilt/OnePlusSans-Thin.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/OnePlusSans-Thin.ttf \
+    vendor/themes/fonts/prebuilt/OnePlusSans-ThinItalic.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/OnePlusSans-ThinItalic.ttf \
+    vendor/themes/fonts/prebuilt/OnePlusSans-Light.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/OnePlusSans-Light.ttf \
+    vendor/themes/fonts/prebuilt/OnePlusSans-LightItalic.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/OnePlusSans-LightItalic.ttf \
+    vendor/themes/fonts/prebuilt/OnePlusSans-Regular.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/OnePlusSans-Regular.ttf \
+    vendor/themes/fonts/prebuilt/OnePlusSans-Italic.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/OnePlusSans-Italic.ttf \
+    vendor/themes/fonts/prebuilt/OnePlusSans-Medium.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/OnePlusSans-Medium.ttf \
+    vendor/themes/fonts/prebuilt/OnePlusSans-MediumItalic.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/OnePlusSans-MediumItalic.ttf \
+    vendor/themes/fonts/prebuilt/OnePlusSans-Black.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/OnePlusSans-Black.ttf \
+    vendor/themes/fonts/prebuilt/OnePlusSans-BlackItalic.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/OnePlusSans-BlackItalic.ttf \
+    vendor/themes/fonts/prebuilt/OnePlusSans-Bold.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/OnePlusSans-Bold.ttf \
+    vendor/themes/fonts/prebuilt/OnePlusSans-BoldItalic.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/OnePlusSans-BoldItalic.ttf
+
